@@ -1,0 +1,166 @@
+{
+  "users": [
+    {
+      "id": "b087db57-4483-48e1-9dc1-c6fddeb54dab",
+      "name": "Demo Student",
+      "email": "student@vlab.com",
+      "password": "$2a$10$4Y.pY12d0fNXqdHkEANPhOdaq1sC5kw8a9Qr8YoemjOCiHjEgyDji",
+      "role": "student",
+      "createdAt": "2026-09-29T11:00:00.000Z"
+    },
+    {
+      "id": "faculty-demo-001",
+      "name": "Demo Faculty",
+      "email": "faculty@vlab.com",
+      "password": "$2a$10$b0uG5WSZSRQGhfUdYYspwuOZJpmfShp7So6krj7LQSfSgJKOmRyCW",
+      "role": "faculty",
+      "createdAt": "2026-09-29T11:00:00.000Z"
+    }
+  ],
+  "labs": [
+    {
+      "id": "18394035-c2c3-4902-90a4-14e052d5644d",
+      "name": "Python Programming Lab",
+      "description": "Python 3 programming environment for experiments and assignments.",
+      "image": "python",
+      "capacity": 30,
+      "active": true,
+      "createdAt": "2026-09-29T11:00:00.000Z"
+    },
+    {
+      "id": "linux-lab-001",
+      "name": "Linux Administration Lab",
+      "description": "Linux command-line and operating-system practice environment.",
+      "image": "linux",
+      "capacity": 25,
+      "active": true,
+      "createdAt": "2026-09-29T11:00:00.000Z"
+    },
+    {
+      "id": "database-lab-001",
+      "name": "Database Lab",
+      "description": "SQL and database fundamentals practice environment.",
+      "image": "database",
+      "capacity": 25,
+      "active": true,
+      "createdAt": "2026-09-29T11:00:00.000Z"
+    }
+  ],
+  "vms": [
+    {
+      "id": "743d0fdb-844e-4aa4-adc3-e714c7c669a9",
+      "studentId": "b087db57-4483-48e1-9dc1-c6fddeb54dab",
+      "labId": "18394035-c2c3-4902-90a4-14e052d5644d",
+      "status": "STOPPED",
+      "mode": "simulation",
+      "containerId": "sim-743d0fdb",
+      "createdAt": "2026-10-06T03:57:32.397Z",
+      "containerName": "virtual-lab-743d0fdb",
+      "stoppedAt": "2026-10-06T04:36:21.393Z"
+    },
+    {
+      "id": "834ff3e1-aa89-4350-9475-01da5f95d2e1",
+      "studentId": "b087db57-4483-48e1-9dc1-c6fddeb54dab",
+      "labId": "18394035-c2c3-4902-90a4-14e052d5644d",
+      "status": "STOPPED",
+      "mode": "docker",
+      "containerId": "3c028abc16fa91dd50d796430724e6a7644fe30d52c132bdc6c29c25a4843aae",
+      "createdAt": "2026-10-06T04:36:34.544Z",
+      "containerName": "vlab_b087db57_18394035",
+      "image": "python:3.12-alpine",
+      "stoppedAt": "2026-10-06T04:39:42.622Z"
+    },
+    {
+      "id": "946256a5-31f9-435d-af69-9415ad0632b0",
+      "studentId": "b087db57-4483-48e1-9dc1-c6fddeb54dab",
+      "labId": "18394035-c2c3-4902-90a4-14e052d5644d",
+      "status": "STOPPED",
+      "mode": "simulation",
+      "containerId": "sim-946256a5",
+      "createdAt": "2026-10-06T04:39:51.507Z",
+      "containerName": "virtual-lab-946256a5",
+      "stoppedAt": "2026-10-06T04:43:40.863Z"
+    },
+    {
+      "id": "aae430a8-137f-496c-8879-37a5ef2214f0",
+      "studentId": "b087db57-4483-48e1-9dc1-c6fddeb54dab",
+      "labId": "18394035-c2c3-4902-90a4-14e052d5644d",
+      "status": "STOPPED",
+      "mode": "docker",
+      "containerId": "eec6dd6842f5aa0631879354596c4b922d8910881c432db168fee94e9780cd42",
+      "createdAt": "2026-10-06T04:43:46.781Z",
+      "containerName": "vlab_b087db57_18394035",
+      "image": "python:3.12-alpine",
+      "stoppedAt": "2026-10-06T04:45:43.851Z"
+    },
+    {
+      "id": "f5983cc2-589a-4cea-a95d-b8fbf3ca489f",
+      "studentId": "b087db57-4483-48e1-9dc1-c6fddeb54dab",
+      "labId": "18394035-c2c3-4902-90a4-14e052d5644d",
+      "status": "STOPPED",
+      "mode": "simulation",
+      "containerId": "sim-f5983cc2",
+      "createdAt": "2026-10-06T04:45:52.375Z",
+      "containerName": "virtual-lab-f5983cc2",
+      "stoppedAt": "2026-10-06T04:55:25.443Z"
+    },
+    {
+      "id": "744596fa-1b34-4a20-afdc-9befa9262f9c",
+      "studentId": "b087db57-4483-48e1-9dc1-c6fddeb54dab",
+      "labId": "18394035-c2c3-4902-90a4-14e052d5644d",
+      "status": "STOPPED",
+      "mode": "simulation",
+      "containerId": "sim-744596fa",
+      "createdAt": "2026-10-06T04:55:31.030Z",
+      "containerName": "virtual-lab-744596fa",
+      "stoppedAt": "2026-10-06T04:59:15.400Z"
+    },
+    {
+      "id": "bfb9b29c-5ccf-40eb-b388-0059c594675a",
+      "studentId": "b087db57-4483-48e1-9dc1-c6fddeb54dab",
+      "labId": "18394035-c2c3-4902-90a4-14e052d5644d",
+      "status": "STOPPED",
+      "mode": "docker",
+      "containerId": "3dd871d584bbb4d316860056ce24f88178c4fd83f5a80032e0147641e3d233f2",
+      "createdAt": "2026-10-06T04:59:26.334Z",
+      "containerName": "vlab_b087db57_18394035",
+      "image": "python:3.12-alpine",
+      "stoppedAt": "2026-10-06T05:01:02.999Z"
+    },
+    {
+      "id": "2db3d584-61f9-4b98-b96b-fd28f5a47a8c",
+      "studentId": "b087db57-4483-48e1-9dc1-c6fddeb54dab",
+      "labId": "18394035-c2c3-4902-90a4-14e052d5644d",
+      "status": "STOPPED",
+      "mode": "docker",
+      "containerId": "2fa9bac2f3d6f044fa10268e39ec9ae9eab2ca73af66df3d529c512a665064e2",
+      "createdAt": "2026-10-06T05:01:25.191Z",
+      "containerName": "vlab_b087db57_18394035",
+      "image": "python:3.12-alpine",
+      "stoppedAt": "2026-10-06T05:06:49.185Z"
+    },
+    {
+      "id": "d999d831-8f6c-482b-9937-02d2a8926d7a",
+      "studentId": "b087db57-4483-48e1-9dc1-c6fddeb54dab",
+      "labId": "18394035-c2c3-4902-90a4-14e052d5644d",
+      "status": "STOPPED",
+      "mode": "simulation",
+      "containerId": "sim-d999d831",
+      "createdAt": "2026-10-06T05:01:25.402Z",
+      "containerName": "virtual-lab-d999d831",
+      "stoppedAt": "2026-10-06T05:06:50.705Z"
+    },
+    {
+      "id": "5daa3241-4a31-43ed-b00e-31a6e7eb89d4",
+      "studentId": "b087db57-4483-48e1-9dc1-c6fddeb54dab",
+      "labId": "18394035-c2c3-4902-90a4-14e052d5644d",
+      "status": "RUNNING",
+      "mode": "docker",
+      "containerId": "1abd0d39e04b5b2a6e2201f1533836be49544c0e949869b2bfd55db2caa0490a",
+      "createdAt": "2026-10-06T05:06:58.674Z",
+      "containerName": "vlab_b087db57_18394035",
+      "image": "python:3.12-alpine"
+    }
+  ],
+  "files": []
+}
